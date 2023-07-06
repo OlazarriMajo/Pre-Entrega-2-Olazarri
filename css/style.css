@@ -52,7 +52,7 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-content:space-around;
+    align-content: space-around;
 
 
 
@@ -66,19 +66,19 @@
     flex-direction: column;
     align-content: space-around;
     justify-content: space-around;
-   
+
 }
 
 .products img {
     width: 200px;
-   padding: 10px;
+    padding: 10px;
 }
 
 .products ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
 }
 
@@ -131,21 +131,21 @@
 
 .main p {
     font-family: 'Epilogue', sans-serif;
-    
+
     text-align: center;
 
 }
 
 .ol {
-    
+
     font-family: 'Epilogue', sans-serif;
-    text-align:center;
-  display: flex;
-  align-items: center;
-   align-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
     color: #B08BBB;
     padding: 50px;
-    
+
 }
 
 .imagen {
@@ -153,9 +153,10 @@
     height: 400px;
     border-radius: 50%;
     border: 1px solid #B08BBB;
-   
+
 }
-.imagenes{
+
+.imagenes {
     display: flex;
     flex-direction: row;
     align-content: space-around;
@@ -175,18 +176,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
-
-
-
-
-
-
-table {
-   
 
 }
+
+
+
+
+
+
+table {}
 
 #volver {
     color: darkmagenta;
@@ -215,11 +213,11 @@ table {
     background-image: url(https://s1.eestatic.com/2021/04/13/actualidad/573454513_178079001_1706x960.jpg);
     background-repeat: no-repeat;
     background-position: right center;
-    background-size:cover;
+    background-size: cover;
     height: 300px;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     flex-direction: column;
 }
 
@@ -227,16 +225,19 @@ span {
     font-weight: bold;
 }
 
-.map {
+#map {
     width: 300px;
-    height: 300px;
-    display: flex;
+    height: 200px;
+    display: flex !important;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 20px auto;
 
 }
 
-
+.map iframe {
+    display: flex;
+}
 
 .descripcion {
     font-weight: bold;
@@ -250,7 +251,7 @@ span {
 }
 
 .video {
-   display: flex !important;
-   align-items: center;
-   justify-content: center;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
 }
