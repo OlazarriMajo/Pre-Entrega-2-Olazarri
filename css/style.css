@@ -215,6 +215,8 @@ table {}
     background-position: right center;
     background-size: cover;
     height: 300px;
+    width: 300px;
+    margin: 20px auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -235,9 +237,7 @@ span {
 
 }
 
-.map iframe {
-    display: flex;
-}
+
 
 .descripcion {
     font-weight: bold;
