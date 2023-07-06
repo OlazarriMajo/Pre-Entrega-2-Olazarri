@@ -136,13 +136,16 @@
 
 }
 
-.main ol {
+.ol {
     
     font-family: 'Epilogue', sans-serif;
     text-align:center;
-  width: 300px;
-   align-content: space-around;
+  display: flex;
+  align-items: center;
+   align-content: center;
     color: #B08BBB;
+    padding: 50px;
+    
 }
 
 .imagen {
