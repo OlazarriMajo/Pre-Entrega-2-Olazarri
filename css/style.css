@@ -78,12 +78,14 @@ padding: auto;
 }
 
 .products ul {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
+    text-align: center;
     list-style-type: none;
     font-family: sans-serif;
+    margin: 10px;
 }
 
 .submenu ul {
@@ -236,6 +238,7 @@ align-content: space-evenly;
     display: flex;
     width: auto;
     height: auto;
+    
 }
 span {
     font-weight: bold;
