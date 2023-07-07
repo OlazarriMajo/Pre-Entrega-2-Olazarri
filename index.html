@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="shortcut icon" href="./resourses/dibujoZapato.jpg">
     <link rel="stylesheet" href="./css/style.css">
     <title>Shoe Store</title>
@@ -12,7 +13,7 @@
 
 <body>
     <header class="header">
-        <a href="./index.html"><img src="./resourses/logoZapateria.jpg" alt="Shoe Store"></a>
+        <a href="./index.html"><img src="./resourses/logoHeaderShoeStore-1.png" alt="Shoe Store"></a>
         
         <nav>
             <ul>
@@ -36,11 +37,59 @@
     </header>
 
     <main class="main">
-        <img class="hero" src="./resourses/zapatoPortada.jpg">
+        <img class="hero" src="./resourses/zapatoPortada.jpg" alt="piernas de mujer con zapatos de tacos altos">
         <h1 id="Arriba">Inicio</h1>
         <a class="tendencias" href="https://www.youtube.com/watch?v=FdV6x29s1uc&t=1s" target="_blank">Tendencias de
             Temporada AW 2023</a>
-            <div class="imagenes">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQonPwgrx1Es0d00dJjMKlSe19HSpe-4ehQ4XLkZoJIVgwKmiqypAFE60vnF0ucZy7ZpZc&usqp=CAU" class="imagen" alt="Borcego acordonado caña alta con base">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Diseños</h2>
+        
+                        <h3>Botas combat</h3>
+                      <p>Este calzado de <span> suela gruesa</span>, <span> cordones</span> y <span> caña alta</span> serán los
+                        favoritos de este otoño invierno
+                        2023.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/162/799/products/whatsapp-image-2021-04-08-at-9-22-17-am1-68819237accb277ab816178852747108-640-0.jpeg" class="imagen" alt="Botas-texanas-bordadas-suela,negra-y-blanca">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Colores</h2>
+                      <p>Los colores acompañan los tonos del invierno; oscuros en la gama de los <span> verdes</span>, <span>
+                        marrones</span> y
+                    <span>negros</span>, pero siempre combinados con un detalle de color, alguna hebilla, cadena o bordado que
+                    le sume al look. Predominio de tonos naturales de <span>verdes</span>,<span> azules</span> y
+                    <span>beiges</span>, con breves apariciones de <span> rojos</span> y <span> naranjas</span>.</p>
+                    </div>
+                  </div>
+                  <div class=" carousel-item">
+                    <img src="./resourses/modelCintoMetal.jpg" class="imagen" alt="modelo con cinto metalizado">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Texturas</h2>
+                      <p><span>Cueros trabajados mecánicamente</span> con incisiones, escamados y gofrados para enriquecer las
+                        superficies. La
+                        matriz <span> animal print</span> sigue vigente a través de creativas y originales versiones.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!-- <div class="imagenes">
             
         <img class="imagen"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQonPwgrx1Es0d00dJjMKlSe19HSpe-4ehQ4XLkZoJIVgwKmiqypAFE60vnF0ucZy7ZpZc&usqp=CAU"
@@ -81,7 +130,7 @@
         
         <p>Este calzado de <span> suela gruesa</span>, <span> cordones</span> y <span> caña alta</span> serán los
             favoritos de este otoño invierno
-            2023.</p>
+            2023.</p> -->
 
         
         <a id="volver" href="#Arriba">Volver arriba</a>
@@ -94,6 +143,7 @@
         <img src="./resourses/logoInstagram.jpg" alt="logo-instagram">
         <p>@shoestore</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>
