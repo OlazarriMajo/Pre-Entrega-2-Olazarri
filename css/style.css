@@ -109,7 +109,14 @@
 .submenu a {
     color: #B08BBB;
     text-decoration: none;
+    font-size:x-large;
 
+}
+.cuidados{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    justify-items: center;
 }
 
 @font-face {
@@ -117,10 +124,10 @@
     src: url(../resourses/fuentes/Butter\ Claus-Demo.otf);
 }
 
-/* .hero {
+.hero {
     width: 100%;
     max-height: 500px;
-} */
+}
 
 .main h2 {
     color: #F55050;
@@ -142,23 +149,19 @@ padding: 20px;
 
 .main p {
     font-family: 'Epilogue', sans-serif;
-
     text-align: justify;
-
 }
 
 .ol {
-
     font-family: 'Epilogue', sans-serif;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    color: #B08BBB;
-    padding: 50px;
-
+    text-align: justify;
+     color: #4e3bb9;
+    padding: 10px;
+    
 }
-
+.ol li{
+    padding-bottom: 10px;
+}
 .imagen {
 display: flex;
 align-items: center;
