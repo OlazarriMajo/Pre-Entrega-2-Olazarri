@@ -45,6 +45,7 @@
     text-align: center;
     font-family: "Titulos chicos";
     font-size: xx-large;
+   padding: 30px;
     
 }
 
@@ -114,15 +115,17 @@ padding: auto;
     src: url(../resourses/fuentes/Butter\ Claus-Demo.otf);
 }
 
-.hero {
-    width: 100vw;
-}
+/* .hero {
+    width: 100%;
+    max-height: 500px;
+} */
 
 .main h2 {
     color: #F55050;
     text-transform: uppercase;
     font-family: "Titulos chicos";
     text-align: center;
+    padding: 20px;
 }
 
 .main h3 {
@@ -191,6 +194,7 @@ align-content: space-evenly;
     display: flex;
     align-items: center;
     justify-content: center;
+   padding: 30px;
 
 }
 
