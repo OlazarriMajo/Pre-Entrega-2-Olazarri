@@ -415,7 +415,9 @@ span {
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
-
+    .header a {
+        font: small;
+    }
     .tendencias {
         font-size: x-large;
         padding: 20px;
@@ -429,6 +431,6 @@ span {
         width: 50%;
         height: 50%;
     }
-
+   
 
 }
