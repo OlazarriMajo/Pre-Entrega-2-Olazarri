@@ -7,26 +7,32 @@
 
 .header {
     background-color: #EAE0DA;
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
 }
 
 .header img {
     width: 300px;
 }
-
+.header nav{
+    width: 50vw;
+}
 
 
 .header ul {
     display: flex;
-    width: 500px;
-    height: 150px;
+   align-content: center;
+   padding: 10px;
     justify-content: space-between;
     align-items: center;
 
     list-style-type: none;
     text-transform: uppercase;
+
+
 
 }
 
@@ -94,8 +100,7 @@
 
 .submenu ul {
     display: flex;
-    width: auto;
-    height: 150px;
+   
     justify-content: space-evenly;
     align-items: center;
 
@@ -113,6 +118,33 @@
     font-size: x-large;
 
 }
+
+a:hover {
+    background-color: #4e3bb9;
+    color: #FEFF86;
+    padding: 10px;
+}
+
+a:link{
+    color: #B08BBB;
+    text-decoration: none;
+    font-size: x-large;
+}
+a:visited{
+    color: darkslategray;
+}
+input:hover {
+    background-color: #4e3bb9;
+    color: #FEFF86;
+    padding: 10px;
+}
+
+select:hover {
+    background-color: #4e3bb9;
+    color: #FEFF86;
+    padding: 10px;
+}
+
 
 .cuidados {
     display: grid;
@@ -317,35 +349,42 @@ span {
     .header img {
         width: 150px;
     }
+
     .main h1 {
         font-family: "Titulos chicos";
         font-size: x-large;
         padding: 20px;
-    
+
     }
+
     .submenu ul {
         height: 50px;
     }
+
     .submenu a {
         font-size: medium;
     }
+
     .main h2 {
         font-size: large;
         padding: 15px;
     }
+
     .main h3 {
-        font-size:x-large;
+        font-size: x-large;
         text-align: center;
         padding: 10px;
     }
+
     .cuidados {
         display: flex;
         flex-wrap: wrap;
-       justify-content: space-evenly;
+        justify-content: space-evenly;
     }
+
     .ol {
         padding: 25px;
-    
+
     }
 
 }
@@ -353,15 +392,18 @@ span {
 @media (max-width:425px) {
     .products {
         display: flex;
-        flex-direction: column;  
+        flex-direction: column;
     }
+
     .header img {
         width: 100px;
     }
+
     .header {
         flex-direction: row;
         justify-content: flex-start;
     }
+
     .header ul {
         display: flex;
         width: 315px;
@@ -369,17 +411,20 @@ span {
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
+
     .tendencias {
         font-size: x-large;
         padding: 20px;
     }
-#carouselExampleDark{
-    width: auto;
-}
-.video {
-    width: 50%;
-    height: 50%;
-}
 
-    
+    #carouselExampleDark {
+        width: auto;
+    }
+
+    .video {
+        width: 50%;
+        height: 50%;
+    }
+
+
 }
