@@ -302,6 +302,8 @@ span {
     justify-content: center;
 }
 
+
+
 @media (max-width:770px) {
     .products {
         grid-template-columns: repeat(2, 1fr);
@@ -346,4 +348,38 @@ span {
     
     }
 
+}
+
+@media (max-width:425px) {
+    .products {
+        display: flex;
+        flex-direction: column;  
+    }
+    .header img {
+        width: 100px;
+    }
+    .header {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .header ul {
+        display: flex;
+        width: 315px;
+        height: auto;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .tendencias {
+        font-size: x-large;
+        padding: 20px;
+    }
+#carouselExampleDark{
+    width: auto;
+}
+.video {
+    width: 50%;
+    height: 50%;
+}
+
+    
 }
