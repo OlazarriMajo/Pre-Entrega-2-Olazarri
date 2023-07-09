@@ -145,7 +145,11 @@ select:hover {
     padding: 10px;
 }
 
-
+input:focus{
+    background-color: #4e3bb9;
+    color: #FEFF86;
+    border-radius: 10px;
+}
 .cuidados {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
