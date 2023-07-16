@@ -178,11 +178,12 @@ input:focus {
     padding: 20px;
 }
 
-.introduccion {
+.introduccion p{
     color: #B8621B;
-    text-align: center;
-    max-width: 750px;
+    text-align:right;
+    width: 400px;
     margin: auto;
+    
 }
 
 
@@ -334,4 +335,21 @@ span {
 }
 
 
-@media() {}
+@media(min-widht: 767px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .header ul {
+       gap:7px
+    }
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    .cuidados {
+        margin: auto;
+    }
+    
+}
