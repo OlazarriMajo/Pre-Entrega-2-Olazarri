@@ -335,13 +335,16 @@ span {
 }
 
 
-@media(min-widht: 767px) {
+@media (min-width: 769px) {
     .header {
         flex-direction: row;
         justify-content: space-around;
     }
     .header ul {
        gap:7px
+    }
+    .introduccion p{
+        width: 600px;
     }
     .products {
         display: grid;
@@ -352,4 +355,16 @@ span {
         margin: auto;
     }
     
+}
+@media (min-width:1439px){
+    .header ul {
+        gap: 15px;px
+     }
+     .products {
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+
+
+
 }
