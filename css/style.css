@@ -67,14 +67,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+width:60%;
 
     margin: 10px;
 
 }
 
-.products img {
-    max-width: 300px;
+.card-img-top {
+    max-width: 150px;
     max-height: 130px;
     padding: 10px;
     border-radius: 40%;
@@ -101,25 +101,26 @@
     text-transform: uppercase;
 }
 .submenu li{
-    margin: 15px;
+    margin: 10px;
+    font: size 8px;
 }
 .submenu a {
     color: #884A39;
     text-decoration: none;
-    font-size: x-large;
+    
 
 }
 
 a:hover {
-    background-color: #B8621B;
-    color: #59590a;
-    padding: 10px;
+    color:  #B8621B;
+   
+    font-weight: bolder;
 }
 
 a:link {
     color: #FF8400;
-    text-decoration: none;
-    font-size: x-large;
+    
+    font-weight: bolder;
 }
 
 a:visited {
@@ -127,15 +128,13 @@ a:visited {
 }
 
 input:hover {
-    background-color: #884A39;
-    color: #FEFF86;
-    padding: 10px;
+    color: #FF8400;
+    font-weight: bolder;
 }
 
 select:hover {
     background-color: #884A39;
     color: #FEFF86;
-    padding: 10px;
 }
 
 input:focus {
@@ -167,6 +166,7 @@ input:focus {
     text-transform: uppercase;
     font-family: 'Lumanosimo', cursive;
     text-align: center;
+    font-size: 30px;
     padding: 20px;
 }
 
@@ -177,13 +177,22 @@ input:focus {
     text-align: center;
     padding: 20px;
 }
-
+.card-title{
+    color: #884A39;
+    font-family: 'Lumanosimo', cursive;
+    margin: 10px;
+    text-align: center;
+}
+.card-text{
+    margin: 8px;
+    text-align: center;
+}
 .introduccion p{
     color: #B8621B;
     text-align:right;
     width: 400px;
     margin: auto;
-    
+    font-size: 20px;
 }
 
 
@@ -203,6 +212,7 @@ input:focus {
     padding-bottom: 10px;
     text-decoration: none;
     list-style-type: none;
+    font-size: 18px;
 }
 
 .imagen {
@@ -214,6 +224,26 @@ input:focus {
     margin: 50px auto;
 }
 
+.card{
+    border-radius: 20px;
+    width: 40vw;
+}
+.card-body{
+    border-radius: 20px;
+}
+
+.form-select{
+    border-radius: 8px;
+    background-color: #4F200D;
+    color: #C07F00;
+    margin: 8px;
+}
+.button{
+    border-radius: 5px;
+    background-color: #4F200D;
+    color: #C07F00;
+    margin: 8px;
+}
 #carouselExampleDark {
     width: 80%;
     margin: auto;
@@ -256,21 +286,24 @@ input:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    margin: auto;
+    width: 200px;
 }
 
 .footer img {
     width: 30px;
 
 }
-
+.redes-sociales{
+    display: flex;
+    align-items: start; 
+   margin: 10px;
+   
+}
 .footer {
     background-color: #C38154;
     color: #FFC26F;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100px;
+    height: 150px;
 }
 
 .main form {
@@ -358,7 +391,7 @@ span {
 }
 @media (min-width:1439px){
     .header ul {
-        gap: 15px;px
+        gap: 15px;
      }
      .products {
         grid-template-columns: 1fr 1fr 1fr;
