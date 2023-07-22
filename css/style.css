@@ -112,15 +112,13 @@ width:60%;
 }
 
 a:hover {
-    color:  #B8621B;
-   
-    font-weight: bolder;
+    color: #FF8400;
+    font-weight:bolder;
+    text-decoration: underline;
 }
 
 a:link {
     color: #FF8400;
-    
-    font-weight: bolder;
 }
 
 a:visited {
@@ -130,16 +128,18 @@ a:visited {
 input:hover {
     color: #FF8400;
     font-weight: bolder;
+   
 }
 
 select:hover {
     background-color: #884A39;
-    color: #FEFF86;
+    color: #FF8400;
+   
 }
 
 input:focus {
     background-color: #884A39;
-    color: #FEFF86;
+    color: #FF8400;
     border-radius: 10px;
 }
 
@@ -288,6 +288,7 @@ input:focus {
     justify-content: center;
     margin: auto;
     width: 200px;
+    text-decoration: none;
 }
 
 .footer img {
