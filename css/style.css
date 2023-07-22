@@ -214,7 +214,11 @@ input:focus {
     list-style-type: none;
     font-size: 18px;
 }
-
+.table{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
 .imagen {
     display: flex;
     align-items: center;
